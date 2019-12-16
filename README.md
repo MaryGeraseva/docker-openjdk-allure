@@ -14,12 +14,12 @@ Docker, Docker compose, JDK:11, Gzip, Git, Allure
 * check Docker compose version `docker-compose --version`
   * if Docker compose doesn't find install from [Docker compose](https://docs.docker.com/v17.09/compose/install/#master-builds) 
 * download Docker files:
-  * from GitHub: clone git repository `https://github.com/MaryGeraseva/docker-openjdk-allure`  
+  * from GitHub: clone git repository `https://github.com/MaryGeraseva/docker-openjdk-allure` 
                  open folder `cd [$user.dir]/docker-openjdk-allure`  
   or 
-  * from DockerHub: create new folder `mkdir docker-openjdk-allure`  
-                    open new folder `cd [$user.dir]/docker-openjdk-allure`  
-                    download docker image `docker pull XXXXX` 
+  * from DockerHub: create new folder `mkdir docker-openjdk-allure` 
+                    open new folder `cd [$user.dir]/docker-openjdk-allure` 
+                    download docker image `docker pull marygeraseva/openjdk-git-allure` 
 * build image, run docker container, launch tests:
   `docker-compose up`
 * wait for until all tests will be done and will generate Allure report >>  
